@@ -62,7 +62,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -70,6 +70,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-soleil {
     position: relative;
     opacity: 0.65;
@@ -83,7 +86,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -104,7 +107,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -112,6 +115,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-venus {
     position: relative;
     opacity: 0.65;
@@ -125,7 +131,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -133,6 +139,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-terre {
     position: relative;
     opacity: 0.65;
@@ -146,7 +155,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -154,6 +163,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-mars {
     position: relative;
     opacity: 0.65;
@@ -167,7 +179,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -175,6 +187,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-jupiter {
     position: relative;
     opacity: 0.65;
@@ -188,7 +203,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -196,6 +211,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-saturne {
     position: relative;
     opacity: 0.65;
@@ -209,7 +227,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -217,6 +235,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-uranus {
     position: relative;
     opacity: 0.65;
@@ -230,7 +251,7 @@ html {
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
+    padding: 20px 80px;
     text-align: justify; }
     html .div-expl h3 {
       text-align: center;
@@ -238,6 +259,9 @@ html {
       text-transform: uppercase;
       font: 20px "Lato", sans-serif;
       color: #ddd; }
+    html .div-expl p .chiffres {
+      font-size: 1.5em;
+      color: #dada0a; }
   html .bgimg-neptune {
     position: relative;
     opacity: 0.65;
