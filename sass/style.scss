@@ -25,6 +25,47 @@ $thetransition: all .25s cubic-bezier(1, .25, 0, .75) 0s;
     color: #ddd;
 }
 
+@mixin btn {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+    &:after,
+    &:before {
+        content: " ";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        transition: all 1s;
+    }
+    &:after {
+        top: -1px;
+        left: -1px;
+        border-top: 5px solid white;
+        border-left: 5px solid white;
+    }
+    &:before {
+        bottom: -1px;
+        right: -1px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    &:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        // background:rgba(0,0,0,.5);
+        // color:white;
+        &:before,
+        &:after {
+            width: 100%;
+            height: 100%;
+            // border-color:white;
+        }
+    }
+}
+
 @mixin expl {
     color: #ddd;
     background-color: #282E34;
@@ -124,6 +165,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -140,6 +184,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
     }
     .bgimg-mercure {
@@ -151,6 +198,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -167,6 +217,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -183,6 +236,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -199,6 +255,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -215,6 +274,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -231,6 +293,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
@@ -247,6 +312,9 @@ html {
         @include expl;
         h3 {
             @include h3;
+            .btn {
+                @include btn;
+            }
         }
         p {
             .chiffres {
