@@ -17,6 +17,14 @@ $thetransition: all .25s cubic-bezier(1, .25, 0, .75) 0s;
     background-size: cover;
 }
 
+@mixin expl {
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 20px 80px;
+    text-align: justify;
+}
+
 @mixin h3 {
     text-align: center;
     letter-spacing: 5px;
@@ -66,17 +74,39 @@ $thetransition: all .25s cubic-bezier(1, .25, 0, .75) 0s;
     }
 }
 
-@mixin expl {
-    color: #ddd;
-    background-color: #282E34;
-    text-align: center;
-    padding: 20px 80px;
-    text-align: justify;
+@mixin div1 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+@mixin div2 {
+    width: 50vw;
 }
 
 @mixin chiffres {
     font-size: 1.5em;
     color: rgb(218, 218, 10);
+}
+
+@mixin div3 {
+    display: flex;
+}
+
+@mixin div4 {
+    margin: auto;
+}
+
+@mixin img {
+    width: 300px;
+    transition: scale(1.0);
+    position: relative;
+    z-index: 10;
+    transition: transform 1S;
+    &:hover {
+        transform: scale(1.5);
+        z-index: 15;
+    }
 }
 
 html {
@@ -169,9 +199,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -188,6 +233,26 @@ html {
                 @include btn;
             }
         }
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
+            }
+        }
     }
     .bgimg-mercure {
         @include bg-img;
@@ -202,9 +267,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -221,9 +301,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -240,9 +335,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -259,9 +369,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -278,9 +403,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -297,9 +437,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
@@ -316,9 +471,24 @@ html {
                 @include btn;
             }
         }
-        p {
-            .chiffres {
-                @include chiffres;
+        .div1 {
+            @include div1;
+            .div2 {
+                @include div2;
+                p {
+                    .chiffres {
+                        @include chiffres;
+                    }
+                }
+            }
+            .div3 {
+                @include div3;
+                .div4 {
+                    @include div4;
+                    img {
+                        @include img;
+                    }
+                }
             }
         }
     }
