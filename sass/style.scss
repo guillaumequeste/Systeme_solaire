@@ -78,6 +78,9 @@ $thetransition: all .25s cubic-bezier(1, .25, 0, .75) 0s;
     display: flex;
     flex-direction: row;
     width: 100vw;
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 @mixin div2 {
@@ -87,6 +90,9 @@ $thetransition: all .25s cubic-bezier(1, .25, 0, .75) 0s;
 @mixin chiffres {
     font-size: 1.5em;
     color: rgb(218, 218, 10);
+    @media screen and (max-width: 800px) {
+        font-size: 1em;
+    }
 }
 
 @mixin div3 {
@@ -157,6 +163,51 @@ html {
             }
         }
     }
+    @media screen and (max-width: 800px) {
+        nav {
+            visibility: hidden;
+        }
+    }
+    .satellite {
+        a {
+            img {
+                width: 3%;
+                position: fixed;
+                top: 0;
+                left: 1%;
+                z-index: 30;
+            }
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .satellite {
+            visibility: hidden;
+            a {
+                img {
+                    z-index: 0;
+                }
+            }
+        }
+    }
+    .menu_responsive {
+        position: fixed;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (max-width: 800px) {
+        .menu_responsive {
+            visibility: visible;
+            text-align: center;
+            width: 100vw;
+            background-color: black;
+            z-index: 10;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
     .bgimg-systeme_solaire {
         @include bg-img;
         background-image: url("../img/systeme_solaire.jpg");
@@ -189,6 +240,19 @@ html {
                 z-index: 1;
                 clip-path: inset(100% 0 0 0);
                 transition: clip-path 1600ms ease;
+            }
+        }
+    }
+    @media screen and (max-width: 970px) {
+        .bgimg-systeme_solaire {
+            .fill-effect {
+                left: 10%;
+                .fill-effect-stroke {
+                    font-size: 40px;
+                }
+                .fill-effect-fill {
+                    font-size: 40px;
+                }
             }
         }
     }

@@ -46,6 +46,35 @@ html {
             visibility: visible;
             -webkit-transform: scaleX(1);
             transform: scaleX(1); }
+  @media screen and (max-width: 800px) {
+    html nav {
+      visibility: hidden; } }
+  html .satellite a img {
+    width: 3%;
+    position: fixed;
+    top: 0;
+    left: 1%;
+    z-index: 30; }
+  @media screen and (max-width: 800px) {
+    html .satellite {
+      visibility: hidden; }
+      html .satellite a img {
+        z-index: 0; } }
+  html .menu_responsive {
+    position: fixed;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column; }
+  @media screen and (max-width: 800px) {
+    html .menu_responsive {
+      visibility: visible;
+      text-align: center;
+      width: 100vw;
+      background-color: black;
+      z-index: 10; }
+      html .menu_responsive a {
+        color: white;
+        text-decoration: none; } }
   html .bgimg-systeme_solaire {
     position: relative;
     opacity: 0.65;
@@ -79,6 +108,13 @@ html {
         z-index: 1;
         clip-path: inset(100% 0 0 0);
         transition: clip-path 1600ms ease; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-systeme_solaire .fill-effect {
+      left: 10%; }
+      html .bgimg-systeme_solaire .fill-effect .fill-effect-stroke {
+        font-size: 40px; }
+      html .bgimg-systeme_solaire .fill-effect .fill-effect-fill {
+        font-size: 40px; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -124,11 +160,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -196,11 +238,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -268,11 +316,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -340,11 +394,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -412,11 +472,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -484,11 +550,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -556,11 +628,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -628,11 +706,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -700,11 +784,17 @@ html {
       display: flex;
       flex-direction: row;
       width: 100vw; }
+      @media screen and (max-width: 800px) {
+        html .div-expl .div1 {
+          flex-direction: column; } }
       html .div-expl .div1 .div2 {
         width: 50vw; }
         html .div-expl .div1 .div2 p .chiffres {
           font-size: 1.5em;
           color: #dada0a; }
+          @media screen and (max-width: 800px) {
+            html .div-expl .div1 .div2 p .chiffres {
+              font-size: 1em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
