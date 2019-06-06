@@ -161,33 +161,34 @@ html {
         @include bg-img;
         background-image: url("../img/systeme_solaire.jpg");
         min-height: 100%;
-        .caption {
+        .fill-effect {
             position: absolute;
             left: 47%;
             top: 70%;
             text-align: center;
             color: #000;
-            .border1 {
-                background-color: #111;
-                color: black;
-                padding: 18px;
+            &:hover {
+                .fill-effect-fill {
+                    clip-path: inset(0 0 0 0);
+                }
+            }
+            .fill-effect-stroke {
+                position: absolute;
+                width: 500px;
                 font-size: 50px;
-                letter-spacing: 10px;
-                position: relative;
-                -webkit-text-stroke: 1px white;
-                &:before {
-                    content: attr(data-text);
-                    position: absolute;
-                    left: 0;
-                    width: 100%;
-                    height: 0;
-                    color: white;
-                    overflow: hidden;
-                    transition: all ease 1s;
-                }
-                &:hover:before {
-                    height: 100%;
-                }
+                color: rgba(white, 0);
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                z-index: 10;
+            }
+            .fill-effect-fill {
+                position: absolute;
+                width: 500px;
+                font-size: 50px;
+                color: white;
+                z-index: 1;
+                clip-path: inset(100% 0 0 0);
+                transition: clip-path 1600ms ease;
             }
         }
     }

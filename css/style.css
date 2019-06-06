@@ -55,31 +55,30 @@ html {
     background-size: cover;
     background-image: url("../img/systeme_solaire.jpg");
     min-height: 100%; }
-    html .bgimg-systeme_solaire .caption {
+    html .bgimg-systeme_solaire .fill-effect {
       position: absolute;
       left: 47%;
       top: 70%;
       text-align: center;
       color: #000; }
-      html .bgimg-systeme_solaire .caption .border1 {
-        background-color: #111;
-        color: black;
-        padding: 18px;
+      html .bgimg-systeme_solaire .fill-effect:hover .fill-effect-fill {
+        clip-path: inset(0 0 0 0); }
+      html .bgimg-systeme_solaire .fill-effect .fill-effect-stroke {
+        position: absolute;
+        width: 500px;
         font-size: 50px;
-        letter-spacing: 10px;
-        position: relative;
-        -webkit-text-stroke: 1px white; }
-        html .bgimg-systeme_solaire .caption .border1:before {
-          content: attr(data-text);
-          position: absolute;
-          left: 0;
-          width: 100%;
-          height: 0;
-          color: white;
-          overflow: hidden;
-          transition: all ease 1s; }
-        html .bgimg-systeme_solaire .caption .border1:hover:before {
-          height: 100%; }
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        z-index: 10; }
+      html .bgimg-systeme_solaire .fill-effect .fill-effect-fill {
+        position: absolute;
+        width: 500px;
+        font-size: 50px;
+        color: white;
+        z-index: 1;
+        clip-path: inset(100% 0 0 0);
+        transition: clip-path 1600ms ease; }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
