@@ -97,9 +97,9 @@ $thetransition: all .25s cubic-bezier(1, .25, 0, .75) 0s;
 
 @mixin chiffres_hover {
     font-style: italic;
-    color: rgb(255, 166, 0);
     cursor: crosshair;
     transform: scale(3);
+    filter: drop-shadow(16px 16px 20px rgb(218, 218, 10)) invert(5%);
 }
 
 @mixin div3 {

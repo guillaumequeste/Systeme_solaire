@@ -173,9 +173,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
         @media screen and (max-width: 970px) {
           html .div-expl .div1 .div2 p {
             font-size: 0.9em; } }
@@ -259,9 +259,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -342,9 +342,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -425,9 +425,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -508,9 +508,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -591,9 +591,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -674,9 +674,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -757,9 +757,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -840,9 +840,9 @@ html {
               font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
-          color: #ffa600;
           cursor: crosshair;
-          transform: scale(3); }
+          transform: scale(3);
+          filter: drop-shadow(16px 16px 20px #dada0a) invert(5%); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
