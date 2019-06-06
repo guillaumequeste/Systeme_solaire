@@ -159,7 +159,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -171,6 +171,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -237,7 +242,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -249,6 +254,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -315,7 +325,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -327,6 +337,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -393,7 +408,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -405,6 +420,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -471,7 +491,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -483,6 +503,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -549,7 +574,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -561,6 +586,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -627,7 +657,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -639,6 +669,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -705,7 +740,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -717,6 +752,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -783,7 +823,7 @@ html {
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
-      width: 100vw; }
+      width: 100%; }
       @media screen and (max-width: 800px) {
         html .div-expl .div1 {
           flex-direction: column; } }
@@ -795,6 +835,11 @@ html {
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
               font-size: 1em; } }
+        html .div-expl .div1 .div2 p .chiffres:hover {
+          font-style: italic;
+          color: #ffa600;
+          cursor: crosshair;
+          transform: scale(3); }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
