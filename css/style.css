@@ -71,7 +71,7 @@ html {
       text-align: center;
       width: 100vw;
       background-color: black;
-      z-index: 10; }
+      z-index: 50; }
       html .menu_responsive a {
         color: white;
         text-decoration: none; } }
@@ -170,12 +170,15 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
           cursor: crosshair;
           transform: scale(3); }
+        @media screen and (max-width: 970px) {
+          html .div-expl .div1 .div2 p {
+            font-size: 0.9em; } }
       html .div-expl .div1 .div3 {
         display: flex; }
         html .div-expl .div1 .div3 .div4 {
@@ -253,7 +256,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -336,7 +339,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -419,7 +422,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -502,7 +505,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -585,7 +588,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -668,7 +671,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -751,7 +754,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
@@ -834,7 +837,7 @@ html {
           color: #dada0a; }
           @media screen and (max-width: 800px) {
             html .div-expl .div1 .div2 p .chiffres {
-              font-size: 1em; } }
+              font-size: 0.9em; } }
         html .div-expl .div1 .div2 p .chiffres:hover {
           font-style: italic;
           color: #ffa600;
