@@ -107,12 +107,8 @@ html {
         clip-path: inset(100% 0 0 0);
         transition: clip-path 1600ms ease; }
   @media screen and (max-width: 970px) {
-    html .bgimg-systeme_solaire .fill-effect {
-      left: 10%; }
-      html .bgimg-systeme_solaire .fill-effect .fill-effect-stroke {
-        font-size: 40px; }
-      html .bgimg-systeme_solaire .fill-effect .fill-effect-fill {
-        font-size: 40px; } }
+    html .bgimg-systeme_solaire {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -199,6 +195,9 @@ html {
     background-size: cover;
     background-image: url("../img/soleil.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-soleil {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -282,6 +281,9 @@ html {
     background-size: cover;
     background-image: url("../img/mercure.jpeg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-mercure {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -365,6 +367,9 @@ html {
     background-size: cover;
     background-image: url("../img/venus.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-venus {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -448,6 +453,9 @@ html {
     background-size: cover;
     background-image: url("../img/terre.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-terre {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -531,6 +539,9 @@ html {
     background-size: cover;
     background-image: url("../img/mars.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-mars {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -614,6 +625,9 @@ html {
     background-size: cover;
     background-image: url("../img/jupiter.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-jupiter {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -697,6 +711,9 @@ html {
     background-size: cover;
     background-image: url("../img/saturne.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-saturne {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -780,6 +797,9 @@ html {
     background-size: cover;
     background-image: url("../img/uranus.jpg");
     min-height: 80%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-uranus {
+      display: none; } }
   html .div-expl {
     color: #ddd;
     background-color: #282E34;
@@ -863,5 +883,8 @@ html {
     background-size: cover;
     background-image: url("../img/neptune.jpg");
     min-height: 100%; }
+  @media screen and (max-width: 970px) {
+    html .bgimg-neptune {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

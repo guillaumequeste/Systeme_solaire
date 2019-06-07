@@ -250,15 +250,7 @@ html {
     }
     @media screen and (max-width: 970px) {
         .bgimg-systeme_solaire {
-            .fill-effect {
-                left: 10%;
-                .fill-effect-stroke {
-                    font-size: 40px;
-                }
-                .fill-effect-fill {
-                    font-size: 40px;
-                }
-            }
+            display: none;
         }
     }
     .div-expl {
@@ -303,6 +295,11 @@ html {
         background-image: url("../img/soleil.jpg");
         min-height: 80%;
     }
+    @media screen and (max-width: 970px) {
+        .bgimg-soleil {
+            display: none;
+        }
+    }
     .div-expl {
         @include expl;
         h3 {
@@ -339,6 +336,11 @@ html {
         @include bg-img;
         background-image: url("../img/mercure.jpeg");
         min-height: 80%;
+    }
+    @media screen and (max-width: 970px) {
+        .bgimg-mercure {
+            display: none;
+        }
     }
     .div-expl {
         @include expl;
@@ -377,6 +379,11 @@ html {
         background-image: url("../img/venus.jpg");
         min-height: 80%;
     }
+    @media screen and (max-width: 970px) {
+        .bgimg-venus {
+            display: none;
+        }
+    }
     .div-expl {
         @include expl;
         h3 {
@@ -413,6 +420,11 @@ html {
         @include bg-img;
         background-image: url("../img/terre.jpg");
         min-height: 80%;
+    }
+    @media screen and (max-width: 970px) {
+        .bgimg-terre {
+            display: none;
+        }
     }
     .div-expl {
         @include expl;
@@ -451,6 +463,11 @@ html {
         background-image: url("../img/mars.jpg");
         min-height: 80%;
     }
+    @media screen and (max-width: 970px) {
+        .bgimg-mars {
+            display: none;
+        }
+    }
     .div-expl {
         @include expl;
         h3 {
@@ -487,6 +504,11 @@ html {
         @include bg-img;
         background-image: url("../img/jupiter.jpg");
         min-height: 80%;
+    }
+    @media screen and (max-width: 970px) {
+        .bgimg-jupiter {
+            display: none;
+        }
     }
     .div-expl {
         @include expl;
@@ -525,6 +547,11 @@ html {
         background-image: url("../img/saturne.jpg");
         min-height: 80%;
     }
+    @media screen and (max-width: 970px) {
+        .bgimg-saturne {
+            display: none;
+        }
+    }
     .div-expl {
         @include expl;
         h3 {
@@ -562,6 +589,11 @@ html {
         background-image: url("../img/uranus.jpg");
         min-height: 80%;
     }
+    @media screen and (max-width: 970px) {
+        .bgimg-uranus {
+            display: none;
+        }
+    }
     .div-expl {
         @include expl;
         h3 {
@@ -598,5 +630,10 @@ html {
         @include bg-img;
         background-image: url("../img/neptune.jpg");
         min-height: 100%;
+    }
+    @media screen and (max-width: 970px) {
+        .bgimg-neptune {
+            display: none;
+        }
     }
 }
