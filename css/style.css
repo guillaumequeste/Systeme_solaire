@@ -150,6 +150,9 @@ html {
           html .div-expl h3 .btn:hover:before, html .div-expl h3 .btn:hover:after {
             width: 100%;
             height: 100%; }
+    @media screen and (max-width: 970px) {
+      html .div-expl #spansoleil {
+        padding-top: 40px; } }
     html .div-expl .div1 {
       display: flex;
       flex-direction: row;
