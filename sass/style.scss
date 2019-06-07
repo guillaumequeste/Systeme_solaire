@@ -199,8 +199,6 @@ html {
     .menu_responsive {
         position: fixed;
         visibility: hidden;
-        display: flex;
-        flex-direction: column;
     }
     @media screen and (max-width: 800px) {
         .menu_responsive {

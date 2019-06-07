@@ -62,9 +62,7 @@ html {
         z-index: 0; } }
   html .menu_responsive {
     position: fixed;
-    visibility: hidden;
-    display: flex;
-    flex-direction: column; }
+    visibility: hidden; }
   @media screen and (max-width: 800px) {
     html .menu_responsive {
       visibility: visible;
