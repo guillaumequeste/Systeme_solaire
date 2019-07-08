@@ -889,5 +889,8 @@ html {
   @media screen and (max-width: 970px) {
     html .bgimg-neptune {
       display: none; } }
+  html .lienPortfolio {
+    color: white;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
